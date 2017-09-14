@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.worstEzreal:dubboDemo-api:1.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../dubboConsumer/Could not find com.worstEzreal:dubboDemo-api:1.0." />
+      <root url="jar://$MAVEN_REPOSITORY$/com/worstEzreal/dubboDemo-api/1.0/dubboDemo-api-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,41 @@
+apply plugin: 'war'
+
+ext {
+    springVersion = "4.3.6.RELEASE"
+}
+
+dependencies {
+    compile(
+            project(":dubboDemo-api"),
+            //spring配置
+            "org.springframework:spring-core:${springVersion}",
+            "org.springframework:spring-beans:${springVersion}",
+            "org.springframework:spring-context:${springVersion}",
+            "org.springframework:spring-context-support:${springVersion}",
+            "org.springframework:spring-tx:${springVersion}",
+            "org.springframework:spring-web:${springVersion}",
+            "org.springframework:spring-webmvc:${springVersion}",
+            "org.springframework:spring-jdbc:${springVersion}",
+            "org.springframework:spring-expression:${springVersion}",
+            "org.springframework:spring-aop:${springVersion}",
+            "org.springframework:spring-oxm:${springVersion}",
+            //dubbo
+            "org.javassist:javassist:3.21.0-GA",
+            "io.netty:netty-all:4.1.15.Final",
+            "com.101tec:zkclient:0.10",
+            "org.apache.zookeeper:zookeeper:3.4.10",
+            "com.caucho:hessian:4.0.7",
+            //日志
+            "ch.qos.logback:logback-classic:1.0.1"
+    )
+    compile("com.alibaba:dubbo:2.5.3"){
+        exclude(module: 'log4j')
+        exclude(module: 'spring')
+    }
+    testCompile(
+            "org.springframework:spring-test:${springVersion}",
+            "org.hamcrest:hamcrest-core:1.3",
+            "junit:junit:4.12",
+            "com.jayway.jsonpath:json-path:2.2.0"
+    )
+}

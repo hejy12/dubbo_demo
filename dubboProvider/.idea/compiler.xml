@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="dubboDemo-api_main" target="1.7" />
+      <module name="dubboDemo-api_test" target="1.8" />
+      <module name="dubboDemo-server_main" target="1.7" />
+      <module name="dubboDemo-server_test" target="1.8" />
+      <module name="dubboProvider_main" target="1.8" />
+      <module name="dubboProvider_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

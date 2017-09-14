@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubboDemo-api/dubboDemo-api.iml" filepath="$PROJECT_DIR$/.idea/modules/dubboDemo-api/dubboDemo-api.iml" group="dubboDemo-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubboDemo-api/dubboDemo-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dubboDemo-api/dubboDemo-api_main.iml" group="dubboDemo-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubboDemo-api/dubboDemo-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dubboDemo-api/dubboDemo-api_test.iml" group="dubboDemo-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubboDemo-server/dubboDemo-server.iml" filepath="$PROJECT_DIR$/.idea/modules/dubboDemo-server/dubboDemo-server.iml" group="dubboDemo-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubboDemo-server/dubboDemo-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dubboDemo-server/dubboDemo-server_main.iml" group="dubboDemo-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubboDemo-server/dubboDemo-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dubboDemo-server/dubboDemo-server_test.iml" group="dubboDemo-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubboProvider.iml" filepath="$PROJECT_DIR$/.idea/modules/dubboProvider.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+subprojects {
+    group 'com.worstEzreal'
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'eclipse-wtp'
+    apply plugin: 'eclipse'
+    version '1.0'
+    compileJava {
+        sourceCompatibility = 1.7// 设置 JDK 版本
+        targetCompatibility = 1.7
+    }
+    repositories {
+        //maven仓库配置
+        mavenLocal()
+    }
+}
+
+
+
